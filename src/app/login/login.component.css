@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-image: url("https://rocketz.com.br/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBZDA9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7a16a3d8787a49c91591c444e2aaf49d593bcdb4/pc-gamer-para-fortnite.jpg");
+  background-size: cover;
+}
+
+.login-container {
+  background: linear-gradient(to bottom, rgb(185, 7, 185), rgb(127, 103, 214));
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: -1vh; /* Ajuste a margem superior conforme necessário */
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #030303;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #df10b2;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+}
+
+a {
+  color: #c9cc18;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

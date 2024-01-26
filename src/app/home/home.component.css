@@ -1,0 +1,152 @@
+/* Estilos para o body e header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#procura{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+}
+
+/* Estilos para o banner */
+#banner {
+    background-image: url("https://i.pinimg.com/originals/e5/2a/f1/e52af1fe0878c9c1d23524aa774c0ba5.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #2315ec;
+    text-align: center;
+    padding: 90px 0;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+#banner h2 {
+    margin-bottom: 20px;
+}
+
+#banner p {
+    margin-bottom: 10%;
+}
+
+#banner .btn {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #ff0000;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#banner .btn:hover {
+    background-color: #000000;
+}
+
+/* Estilos para as seções */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Estilos para a seção de destaques */
+#destaques .container {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:left;
+    justify-content: space-between;
+}
+
+.destaque {
+    width: calc(33.33% - 100px);
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.destaque img {
+    width: 80%;
+    height:auto;
+    border-radius: 10px;
+}
+
+.destaque p {
+    margin-top: 10px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para a galeria de jogos */
+#galeria .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+#galeria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.item img:hover {
+    transform: scale(1.05);
+}
